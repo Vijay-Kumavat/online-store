@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Store - Assignment 1</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/registration.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Your header content goes here -->
+        <h1 class="title">Online Store</h1>
+        <nav class="topnav">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="registration"><a href="/registration.html">Registration</a></li>
+                <li class="search-container">
+                    <form action="">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <form class="form-layout" action="/index.html">
+            <label> Firstname </label>
+            <input type="text" name="firstname" size="15" />
+            <label> Middlename: </label>
+            <input type="text" name="middlename" size="15" />
+            <label> Lastname: </label>
+            <input type="text" name="lastname" size="15" />
+            <label>Address</label>
+            <textarea cols="80" rows="5" value="address"></textarea>
+            Email:
+            <input type="email" id="email" name="email" required />
+            Password:
+            <input type="Password" id="pass" name="pass">
+            Re-type password:
+            <input type="Password" id="repass" name="repass">
+            <input type="submit" value="Submit" />
+        </form>
+    </main>
+
+    <footer>
+        <!-- Your footer content goes here -->
+        <p>&copy; 2024 Your Online Store</p>
+    </footer>
+</body>
+
+</html>
